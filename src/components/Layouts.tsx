@@ -19,21 +19,13 @@ const Layout = () => {
           </Link>
         </div>
         <div>
-          <ul>
-            <li>
-              <Link to="/sign-in">
-                <button>Sign In</button>
-              </Link>
-            </li>
-            <li>
-              <Link to="/sign-up">
-                <button>Sign Up</button>
-              </Link>
-            </li>
-            <li>
-              <button>Sign Out</button>
-            </li>
-          </ul>
+          <Link to="/sign-in">
+            <button>Sign In</button>
+          </Link>
+          <Link to="/sign-up">
+            <button>Sign Up</button>
+          </Link>
+          <button>Sign Out</button>
         </div>
       </div>
       <div>
