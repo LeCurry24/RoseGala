@@ -1,6 +1,11 @@
+import styles from "./Home.module.css"
+
+
 const Home = () => {
     return(
-        <h1>Rose Gala</h1>
+        <>
+        <p>Home</p>
+        </>
     )
 }
 

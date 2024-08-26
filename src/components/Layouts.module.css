@@ -1,0 +1,9 @@
+.topBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.outlet{
+    display: flex;
+    justify-content: center;
+}
