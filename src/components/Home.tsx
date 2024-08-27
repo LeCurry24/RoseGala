@@ -4,7 +4,10 @@ import styles from "./Home.module.css"
 const Home = () => {
     return(
         <>
-        <p>Home</p>
+        <div className={styles.benner}>
+
+        <img src="../HomeBenner.png" className={styles.mainBenner} />
+        </div>
         </>
     )
 }

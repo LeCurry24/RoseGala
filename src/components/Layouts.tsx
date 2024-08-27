@@ -20,7 +20,6 @@ const Layout = () => {
                     <button>Kids</button>
                 </Link>
             </div>
-            <div><h1>Rose Gala</h1></div>
             <div>
                 <Link to="/sign-in">
                     <button>Sign In</button>

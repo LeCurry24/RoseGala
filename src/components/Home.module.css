@@ -4,15 +4,33 @@
     height: 270px;
     display: flex;
     justify-content: center;
-    /* -webkit-mask-image: url("/public/HomeBenner.png");
-    mask-image: url("/public/HomeBenner.png");
-     */
        
 }
 
 
-.homeImage{
-    width: 900px;
-    height: 500px;
+
+
+.mainBenner{
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; */
+
+    width: 1075px;
+    height: 350px;
     
+
+    object-fit: cover;
+
+
+    -webkit-mask-image: linear-gradient(
+        rgb(0 0 0 / 1),
+        rgb(0 0 0 / 0.5) 80%,
+        rgb(0 0 0 / 0)
+    );
+    mask-image: linear-gradient(
+        rgb(0 0 0 / 1),
+        rgb(0 0 0 / 0.5) 80%,
+        rgb(0 0 0 / 0)
+    );
 }
