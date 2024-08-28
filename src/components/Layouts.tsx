@@ -10,14 +10,8 @@ const Layout = () => {
                 <Link to="/">
                     <button>Home</button>
                 </Link>
-                <Link to="/men">
-                    <button>Men</button>
-                </Link>
-                <Link to="/women">
-                    <button>Women</button>
-                </Link>
-                <Link to="/kids">
-                    <button>Kids</button>
+                <Link to="/gallery">
+                    <button>Gallery</button>
                 </Link>
             </div>
             <div>

@@ -1,15 +1,18 @@
-import styles from "./Home.module.css"
-
+import styles from "./Home.module.css";
 
 const Home = () => {
-    return(
-        <>
+  return (
+    <>
+      <div className={styles.mainContainer}>
         <div className={styles.benner}>
-
-        <img src="../HomeBenner.png" className={styles.mainBenner} />
+          <img src="../HomeBenner.png" className={styles.mainBenner} />
         </div>
-        </>
-    )
-}
+        <div className={styles.specialscard}>
+          <p className={styles.topPicks}>Top Picks</p>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
