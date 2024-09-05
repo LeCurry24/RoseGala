@@ -1,19 +1,21 @@
 .mainContainer{
     display: flex;
-    flex-direction: column;
     align-items: center;
+
 }
 
-.specialscard{
+
+/* .specialscard{
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.681);
     backdrop-filter: blur(6px);
-    width: 100%;
+    width: 800%;
     height: 460px;
-    margin-top: 2%;
+    margin-top: 20%;
     display: flex;
-    justify-content: center;  
-}
+    justify-content: center;
+     
+} */
 
 .topPicks{
     font-size: 30px;
@@ -24,24 +26,3 @@
 
 
 
-.mainBenner{
-    margin-top: 1%;
-
-    width: 1250px;
-    height: 380px;
-    
-
-    object-fit: cover;
-
-
-    -webkit-mask-image: linear-gradient(
-        rgb(0 0 0 / 1),
-        rgb(0 0 0 / 0.5) 85%,
-        rgb(0 0 0 / 0)
-    );
-    mask-image: linear-gradient(
-        rgb(0 0 0 / 1),
-        rgb(0 0 0 / 0.5) 85%,
-        rgb(0 0 0 / 0)
-    );
-}

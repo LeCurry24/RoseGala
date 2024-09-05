@@ -5,7 +5,7 @@ const Gellery = () => {
     return(
         <>
         <div className={styles.mensCard}>
-            <p>Gallery</p>
+            <b className={styles.gallery}>Gallery</b>
 
         </div>
         </>
