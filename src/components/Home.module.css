@@ -4,18 +4,16 @@
 
 }
 
+.artTopPicks{
+    margin-left: -40%;
+}
 
-/* .specialscard{
-    border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.681);
-    backdrop-filter: blur(6px);
-    width: 800%;
-    height: 460px;
-    margin-top: 20%;
-    display: flex;
-    justify-content: center;
-     
-} */
+
+.photoTopPicks{
+    margin-left: 40%;
+}
+
+
 
 .topPicks{
     font-size: 30px;
