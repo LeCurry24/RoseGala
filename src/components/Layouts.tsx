@@ -9,7 +9,7 @@ const Layout = () => {
           <Link to="/">
             <button className={styles.layoutButtons}>Home</button>
           </Link>
-          <Link to=''>
+          <Link to="/profile">
             <button className={styles.layoutButtons}>Profile</button>
           </Link>
           <Link to="/gallery">

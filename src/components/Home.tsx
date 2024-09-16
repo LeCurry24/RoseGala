@@ -7,11 +7,15 @@ const Home = () => {
       <div className={styles.mainContainer}>
         <div className={styles.specialscard}>
           <div className={styles.artTopPicks}>
-          <p className={styles.topPicks}>Top Picks: Painting Art</p>
-          <TopPicks/></div>
-          <div className={styles.photoTopPicks}>
-          <p className={styles.topPicks}>Top Picks: Photography</p>
-          <TopPicks/></div>
+            <p className={styles.topPicks}>Top 5 Picks</p>
+            <select>
+              <option value="value1">Art</option>
+              <option value="value2">Photography</option>
+              <option value="value3">Graphic Design</option>
+            </select>
+            <hr />
+            <TopPicks />
+          </div>
         </div>
       </div>
     </>

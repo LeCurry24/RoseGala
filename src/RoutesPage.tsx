@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import GalleryPage from "./components/GalleryPage";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import Profile from "./components/Profile";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         {
           path: "/sign-up",
           element: <SignUp/>
+        },
+        {
+          path: "/profile",
+          element: <Profile/>
         }
         
       ]
