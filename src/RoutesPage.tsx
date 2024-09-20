@@ -6,6 +6,7 @@ import GalleryPage from "./components/GalleryPage";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
 import Profile from "./components/Profile";
+import About from "./components/AboutPage";
 
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         {
           path: "/profile",
           element: <Profile/>
+        },
+        {
+          path: "/about",
+          element: <About/>,
         }
         
       ]

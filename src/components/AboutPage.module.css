@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.aboutRoseGala{
+    font-size: 30px;
+}
+
+.aboutStatement{
+    font-size: 30px;
+    width: 65%;
+   
+}
+
+.paragraph{
+    text-indent: 5%;
+    margin-bottom: 20px;
+}
+

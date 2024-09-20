@@ -15,6 +15,9 @@ const Layout = () => {
           <Link to="/gallery">
             <button className={styles.layoutButtons}>Gallery</button>
           </Link>
+          <Link to="/about">
+            <button className={styles.layoutButtons}>About</button>
+          </Link>
         </div>
         <div className={styles.signs}>
           <Link to="/sign-in">
