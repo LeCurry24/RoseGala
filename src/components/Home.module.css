@@ -1,9 +1,14 @@
 .mainContainer{
     display: flex;
     align-items: center;
-
+    
 }
 
+.specialscard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .topPicks{
     font-size: 30px;
@@ -11,9 +16,20 @@
     margin: 0;
 }
 
+.img{
+    border-radius: 5%;
+}
 
+.creatorDiv{
+    display: flex;
+    justify-content: center;
+}
 
 .creatorStatement{
+    text-indent: 3%;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-left: 5%;
     width: 40%;
 }
 
