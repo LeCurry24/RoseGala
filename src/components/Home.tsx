@@ -17,11 +17,11 @@ const Home = () => {
             <hr />
             <TopPicks />
           </div>
-          <div className={styles.creatorDiv}>
             <div>
               <b className={styles.creator}>Creator</b>
             </div>
-            <img src="creator.jpg" alt="" width="400" className={styles.img} />
+          <div className={styles.creatorDiv}>
+            <img src="creator.jpg" alt="" width="600" className={styles.img} />
             <p className={styles.creatorStatement}>
               Jaylen Curry is a talented graphic designer and software developer
               who created Rose Gala. The site reflects Jaylen's unique

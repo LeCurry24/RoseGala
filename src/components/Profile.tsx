@@ -1,9 +1,9 @@
-
+import ProfileCard from "./ProfileCard"
 
 const Profile = () => {
     return(
         <>
-        <p>profile</p>
+        <ProfileCard/>
         </>
     )
 }

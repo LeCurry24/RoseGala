@@ -23,14 +23,21 @@
 .creatorDiv{
     display: flex;
     justify-content: center;
+    /* flex-direction: column; */
 }
 
 .creatorStatement{
+    font-size: 20px;
     text-indent: 3%;
     font-weight: bold;
     margin-top: 3%;
     margin-left: 5%;
     width: 40%;
+}
+
+
+.creator{
+    font-size: 30px;
 }
 
 
