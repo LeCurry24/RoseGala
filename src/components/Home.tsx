@@ -4,22 +4,25 @@ import TopPicks from "./TopPicksList";
 const Home = () => {
   return (
     <>
-    
       <div className={styles.mainContainer}>
         <div className={styles.specialscard}>
           <div className={styles.artTopPicks}>
-            <p className={styles.topPicks}>Top 5 Picks</p>
-            <select>
-              <option value="value1">Art</option>
-              <option value="value2">Photography</option>
-              <option value="value3">Graphic Design</option>
-            </select>
+            <div className={styles.topSelect}>
+              <select>
+                <option value="value1">Art</option>
+                <option value="value2">Photography</option>
+                <option value="value3">Graphic Design</option>
+              </select>
+              <p className={styles.topPicks}><u>Top 5 Picks</u></p>
+            </div>
             <hr />
             <TopPicks />
           </div>
-            <div>
-              <b className={styles.creator}>Creator</b>
-            </div>
+          <div>
+            <b className={styles.creator}>
+              <u>Creator</u>
+            </b>
+          </div>
           <div className={styles.creatorDiv}>
             <img src="creator.jpg" alt="" width="600" className={styles.img} />
             <p className={styles.creatorStatement}>
@@ -34,7 +37,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
     </>
   );
 };

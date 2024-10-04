@@ -40,5 +40,10 @@
     font-size: 30px;
 }
 
+.topSelect{
+    display: flex;
+    gap: 30%;
+}
+
 
 

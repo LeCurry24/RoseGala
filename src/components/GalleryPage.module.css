@@ -1,9 +1,25 @@
 .mensCard{
-    width: 95%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     height: 800px;
     margin-top: 3%;
+    margin-left: 10%;
 }
 
 .gallery{
     font-size: 40px;
+    /* display: flex; */
+    justify-content: center;
 }
+
+.select{
+    width: fit-content;
+}
+
+.gallerySelect{
+    display: flex;
+    gap: 34%;
+}
+
+

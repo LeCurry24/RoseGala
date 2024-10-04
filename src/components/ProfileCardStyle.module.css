@@ -1,108 +1,155 @@
-/* From Uiverse.io by JaydipPrajapati1910 */ 
+ 
 .card {
-    position: relative;
-    width: 315px;
-    height: 450px;
-    margin: 30px auto;
-    box-shadow: 0 0 100px rgba(0,0,0, .3);
-    border-radius: 10px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    max-width: 320px;
+    border-radius: 1rem;
+    background-color: rgba(31, 41, 55, 1);
+    padding: 1rem;
   }
   
-  .cardHeader {
-    position: relative;
-    height: 220px;
-    background-size: cover;
-    background-position: top;
-  }
-  
-  .cardHeader:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgb(29, 95, 136), rgba(181,181,181, -0.20));
-    border-radius: 10px;
+  .infos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    grid-gap: 1rem;
+    gap: 1rem;
   }
   
   .image {
-    position: absolute;
-    margin-top: 100px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #d5d3d3;
-    font-size: 20px;
-    font-weight: 400;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    background-color: rgb(118, 36, 194);
+    background: linear-gradient(to bottom right, rgb(118, 36, 194), rgb(185, 128, 240));
   }
   
-  .cardHeaderBar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    width: 100%;
-  }
-  
-  .srOnly {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    clip: rect(0,0,0,0);
-    border: none;
-    overflow: hidden;
-  }
-  
-  .btnMessage {
-    display: inline-block;
-    width: 19.37px;
-    height: 16.99px;
-    margin-right: 10px;
-    margin-top: 10px;
-    float: right;
-  }
-  
-  .cardHeaderSlantedEdge {
-    position: absolute;
-    bottom: -3px;
-    z-index: 1;
-    width: 100%;
-    right: 0;
-    left: 0;
-  }
-  
-  .cardBody {
-    text-align: center;
-    padding-left: 10px;
+  .info {
+    height: 7rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   
   .name {
-    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .function {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .stats {
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 4px;
+  }
+  
+  .state-value {
     font-weight: 700;
-    text-transform: uppercase;
-    margin: 0 auto;
+    color: rgb(118, 36, 194);
   }
   
-  .jobTitle {
-    font-size: 20px;
-    font-weight: 300;
-    margin-top: 15px;
-    color: #070707;
+  .request {
+    margin-top: 1.5rem;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: all .3s ease;
   }
   
-  /* .socialAccounts img {
-    width: 15px;
+  .request:hover {
+    background-color: rgb(118, 36, 194);
+    color: #fff;
+  }
+
+
+  /* profile gallery card */
+
+ .profileGallery {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .socialAccounts a {
-    margin-left: 10px;
+  .profileGallery svg {
+    width: 48px;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  .socialAccounts a:first-child {
-    margin-left: 0;
-  } */
+  .profileGallery:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
   
-  .cardooter {
+  .profileGallery__content {
     position: absolute;
+    top: 0;
     left: 0;
     width: 100%;
-    bottom: 20px;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
+  
+   /* Profile.tsx edits */
+
+   .hr{
+    width: 100%;
+    height: 30px;
+    background-color: #2088ffaa;
+    border: none;
+   }
+
+   .proCard{
+    display: flex;
+    justify-content: center;
+   }
+
+   .yourGallery{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+   }
+
+   .profileGalleryCard{
+    margin-left: 5%;
+    margin-top: 4%;
+   }
