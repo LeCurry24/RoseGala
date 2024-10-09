@@ -1,29 +1,18 @@
 import styles from "./ProfileCardStyle.module.css";
+import ProfileSocials from "./ProfileSocials";
+
+
 
 const profileCard = () => {
   return (
-    /* From Uiverse.io by Yaya12085 */
-
-    <div className={styles.card}>
-      <div className={styles.infos}>
-        <div className={styles.image}></div>
-        <div className={styles.info}>
-          <div>
-            <p className={styles.name}>John Doe</p>
-            <p className={styles.function}>Front-end dev</p>
-          </div>
-          <div className={styles.stats}>
-            <p className="flex flex-col">
-              Articles
-              <span className={styles.stateValue}>34</span>
-            </p>
-          </div>
-        </div>
-      </div>
-      <button className={styles.request} type="button">
-        Add friend
-      </button>
+    <>
+    <div className={styles.profileCard}>
+        <div className={styles.profileImage}></div>
+        <b className={styles.profileName}>Siah Curry</b>
+        <b className={styles.role}><u>Artist</u></b>
     </div>
-  );
+    <ProfileSocials/>
+    </>
+  )
 };
 export default profileCard;
