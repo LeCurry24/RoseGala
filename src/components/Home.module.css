@@ -1,3 +1,5 @@
+
+
 .mainContainer{
     margin-top: 5%;
     display: flex;
@@ -44,8 +46,12 @@
 
 .topSelect{
     display: flex;
-    gap: 30%;
+    gap: 23%;
 }
+
+
+
+
 
 
 

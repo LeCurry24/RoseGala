@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import TopPicks from "./TopPicksList";
+import HomeSelect from "./HomeSelect";
 
 const Home = () => {
   return (
@@ -8,11 +9,7 @@ const Home = () => {
         <div className={styles.specialscard}>
           <div className={styles.artTopPicks}>
             <div className={styles.topSelect}>
-              <select>
-                <option value="value1">Art</option>
-                <option value="value2">Photography</option>
-                <option value="value3">Graphic Design</option>
-              </select>
+              <HomeSelect/>
               <p className={styles.topPicks}><u>Top 5 Picks</u></p>
             </div>
             <hr />

@@ -20,6 +20,11 @@
         width: 70%;
         height: 140px;
     }
+
+    .profileName{
+        font-size: 20px;
+        margin-top: 7%;
+    }
 }
 
 
